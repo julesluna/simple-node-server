@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> </title>
+    </head>
+    <body>
+<h2> Order Form</h2>
+<form>
+<fieldset>
+<legend>Customer Details</legend> <br> 
+<label> Customer Name: <input type="text" name="customer name" required></label> <br><br>
+<label> Mobile Number: <input type="text" name="mobile number" required></label> <br><br>
+<label> E-mail Address: <input type="email" name="e-mail address" submit></label> 
+</fieldset>  
+<fieldset>
+<legend>Pizza Options</legend> <br>
+Flavor
+<label>
+<select name="Flavor">
+<option value="Hawiian">Hawiian</option>    
+<option value="Pepperoni">Pepperoni</option>  
+ <option value="Cheese">Cheese</option>  
+</select>
+</label>
+<br>
+<br>
+Size: <br>
+<label><input type="radio" name="size" value="small"> Small</label>
+<label><input type="radio" name="size" value="medium"> Medium </label>
+<label><input type="radio" name="size" value="large"> Large </label>
+<br>
+<br>
+Extra Toppings: <br>
+<label><input type="checkbox" name="subject" value=="Bacon"> Bacon </label>
+<label><input type="checkbox" name="subject" value=="Cheese"> Cheese </label>
+<label><input type="checkbox" name="subject" value=="Onion"> Onion </label>
+<label><input type="checkbox" name="subject" value=="Mushroom"> Mushroom </label>
+</fieldset>
+<fieldset>
+<legend>Delivery Details</legend> <br>
+<label>Delivery Date: <input type="date" name="Delivery Date"></label> <br> <br>
+<label>Preferred Delivery Time: <input type="time" name="Preferred Delivery Time"></label> <br> <br>
+<label>Delivery Address: <br><textarea rows="10" cols="50"> Type something here.. </textarea></label>
+</fieldset>
+<button type="reset">Reset</button>
+<button type="submit">Submit Order</button>
+</form>
+    </body>
+</html>

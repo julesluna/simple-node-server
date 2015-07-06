@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> CMSC 2 Example</title>
+        <style>
+        body {
+        background-color: yellow;    
+        }    
+        h1 {
+        color: #FF0000;
+        margin-left: 40px;
+        }
+        fieldset {
+            background-color: gray;
+            padding: 3px;
+            margin: 3px;
+            width: 100px;
+            margin: 0px auto;
+        }
+        input {
+            font-family: "Courier Sans";
+            font-size: 20px;
+        }
+        #text {
+            font-weight: bold;
+            font-family: "Times New Roman", Georgia, Serif;
+            color: #ff69b4;
+            text-decoration: underline;
+            text-align: justify;
+        }
+        #colors {
+            list-style-type: square;
+        }
+        #green-colors {
+            list-style-type: upper-roman;
+        }
+        img {
+            width: 80px;
+            height: 60px;
+            padding: 3px;
+            margin: 3px;
+        }
+        .text {
+            font-style: italic;
+            text-indent: 50px;
+            text-transform: uppercase;
+            border: 5px solid black;
+            vertical-align: middle;
+        }
+        </style>
+    <link rel="stylesheet" type="text/css" href="css/selectors-1.css">   
+    </head>
+    <body>
+<h1>Hello World!</h1>
+<h6>How are you?</h6>
+<img src="../images/baby.jpg" style="width:150px;height:100px;"/>
+<fieldset>
+<legend>Form</legend>
+Username: <input type="text"/>
+<input type="submit"/>
+</fieldset>
+<p id="text">
+This text is inside a p tag under the id text.
+</p>
+<div>
+This text is inside a div tag.
+</div>
+This is a list of colors 
+<ul id="colors">
+    <li>Green</li>
+    <ol id="green-colors">
+    <li>Apple Green</li>
+    <li>Blue Green</li>
+    <li>Light Green</li>
+    </ol>
+    <li>Blue</li>
+    <li>Red</li>
+    <li>Orange</li>
+    </ul>
+<p class="text">
+<img src="../images/baby.jpg" alt="This is a cute baby."/>
+This text is inside a p tag under the class text.
+</p>
+<div class="text">
+This text is inside a div tag under the class text.    
+</div>
+    </body>
+</html>

@@ -47,6 +47,23 @@
             border: 5px solid black;
             vertical-align: middle;
         }
+        a:link {
+            color: #FF0000;
+            text-decoration: none;
+        }
+        a:visited {
+            color: #00FF00;
+        }
+        a:hover {
+            color: #00FF00;
+            text-decoration: underline;
+        }
+        a:active {
+            color: #0000FF;
+        }
+        p::first-line {
+            color: #FF0000;
+        }
         </style>
     <link rel="stylesheet" type="text/css" href="css/selectors-1.css">   
     </head>
@@ -83,6 +100,12 @@ This text is inside a p tag under the class text.
 </p>
 <div class="text">
 This text is inside a div tag under the class text.    
-</div>
+</div> <br>
+<a href="https://www.google.com"> This is a link. </a>
+<p>
+This is a paragraph. 
+A very very long paragraph to give you an example of
+what pseudo-elements can do. I hope you enjoy the tutorials. Kthxbye!
+</p>
     </body>
 </html>

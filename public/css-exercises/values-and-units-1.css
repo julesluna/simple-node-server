@@ -16,11 +16,4 @@ font-size: 1.2em;
 .sub {
     position: relative;
     bottom: -1ex;
-}
-#lol div
-h1 { margin: 0.5in; } 
-h2 { line-height: 3cm; } 
-h3 { word-spacing: 4mm; } 
-h4 { font-size: 12pt; } 
-h5 { font-size: 1pc; } 
-h6 { font-size: 12px; }
+

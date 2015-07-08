@@ -1,7 +1,17 @@
 p {
 background-color: lightblue;
 width: 200px;
+/*The box model properties*/
 padding: 25px;
-border: 25px solid navy;
+border: 25px solid gray;
 margin: 25px;
+}
+.cent {
+margin: auto;
+background: lightblue;
+width: 66%;
+}.uncent {
+margin: 20px;
+background: lightblue;
+width: 66%;
 }

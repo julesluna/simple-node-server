@@ -1,0 +1,18 @@
+*{
+margin:0px;
+paddding:0px;
+}
+body
+{
+background: #cbe5ff; 
+}
+body {
+    font-family: Arial;
+}
+.rect {
+position:fixed;
+height:600;
+width:400px;
+left:800px;
+top:100px;
+}

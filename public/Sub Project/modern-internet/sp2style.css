@@ -1,0 +1,151 @@
+body {
+
+	background-image: url("bg.jpg");
+	background-position: center;
+	background-attachment:fixed;
+	font-family: "Trebuchet MS";
+	
+}
+
+
+a {
+	color: white;
+	text-decoration:none;
+}
+
+#navigation a {
+	color: black;
+}			
+a:hover {
+	color: blue;
+	font-weight:bold;
+}
+
+
+#banner { 
+	color: white;
+	font-size: 100px;
+	text-align: center;
+	border: 3px;
+	padding-bottom: 50px;
+}
+		
+#search {
+	float: right;
+	position: relative;
+	margin-right: 40px;
+	margin-top: -150px;
+	top:100px;
+	left:-100px;
+}
+
+#navigation {
+		text-align: center;
+	background-color: white;
+	font-size: 20px;
+	left:-150px;
+	top:-80px;
+	padding-left:2px;
+	position: relative;
+			
+			
+}
+			
+.content {
+	margin-left: 23px;
+	margin-top: -30px;
+	border-radius: 3px;
+	height:500px;
+	width:65%;
+	border: solid white 1px;
+	color:white;
+	font-weight:bold;
+}	
+	  
+.content2 {
+	margin-left: 920px;
+	margin-top: -1200px;
+	border-radius: 3px;
+	height: 150;
+	width: 305;
+	border: solid white 1px;
+	text: bold 15px;
+	background-color:black;
+}
+		 
+#sec7 {
+		
+	position: relative;
+	color: white;
+	top:-25px;
+	left:10px;		
+	
+}
+	 	
+#footer {
+	position: absolute;
+	bottom:-300px;
+	text-align:center;
+	letter-spacing: 2px;
+	color:white;
+	background-color:black;
+	width: 100%;
+	line-height:10px;
+}
+	
+#text1{
+	position:absolute;
+	margin-top:50px;
+	left:80px;
+	font-size: 30px;
+	text-align:center;
+
+}
+
+#text2{
+	position:absolute;
+	margin-top:50px;
+	left:420px;
+	font-size: 30px;
+	text-align:center;
+}
+
+#text3{
+	position:absolute;
+	margin-top:50px;
+	left:780px;
+	font-size: 30px;
+	text-align:center;
+}
+
+#text4{
+	position:absolute;
+	margin-top:230px;
+	left:80px;
+	font-size: 30px;
+	text-align:center;
+}
+
+#text5{
+	position:absolute;
+	margin-top:230px;
+	left:420px;
+	font-size: 30px;
+	text-align:center;
+}
+
+#text6{
+	position:absolute;
+	margin-top:230px;
+	left:780px;
+	font-size: 30px;
+	text-align:center;
+}
+
+#text7{
+	position:absolute;
+	margin-top:400px;
+	left:80px;
+	font-size: 30px;
+	text-align:center;
+}

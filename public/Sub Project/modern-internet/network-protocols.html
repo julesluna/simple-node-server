@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Network Protocols </title>
+        <link rel="stylesheet" type="text/css" href="sp2style.css">
+        <script src="sp2home.js"></script>
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+<div id="banner"> 
+			<img src="banner.png" style="height: 350px; width: 90%;"></img>
+			
+			
+		</div>
+		
+	
+	
+	<div id="search">
+				
+				<input type="text" name="username" size="20"> 
+				<input type="submit" name="submit" value="Search"> <br>
+				
+		</div>
+		
+	<div id="navigation" style="float:right"; >
+			&nbsp 
+			<a href="modern-internet.html">Home</a> &nbsp | &nbsp
+			<a href="index.html">Index</a> &nbsp | &nbsp
+			<a href="network-protocols.html">Network Protocols</a> &nbsp | &nbsp
+			<a href="email.html">E-mail</a> &nbsp | &nbsp
+			<a href="search-engines.html">Search Engines</a>&nbsp | &nbsp
+			<a href="blogging.html">Blogging</a>&nbsp | &nbsp
+			<a href="video-streaming.html">Video Streaming</a>&nbsp | &nbsp
+			<a href="microblog-social-networking.html">Microblog</a>&nbsp | &nbsp
+			
+		</div>
+		
+	<div class="content">
+		
+
+	<h2 style="color:white">Network Protocols:</h2>
+	<p> Source from:</p>
+	<p>The TCP/IP Networking Protocol Suite. (n.d.). Retrieved July 26, 2015.</p>
+	<p><strong>IP</strong></p>
+	<p>IP, which stands for Internet Protocol,is a Network layer protocol that is responsible for delivering packets to network devices. The IP protocol uses logical IP addresses to refer to individual devices rather than physical (MAC) addresses. A protocol called ARP (for Address Resolution Protocol) handles the task of converting IP addresses to MAC addresses.
+
+Because IP addresses consist of a network part and a host part, IP is a routable protocol. As a result, IP can forward a packet to another network if the host is not on the current network. (The ability to route packets across networks is where IP gets its name. An internet is a series of two or more connected TCP/IP networks that can be reached by routing.)</p>
+			
+	<p><strong>TCP</strong></p>	
+	<p>TCP, which stands for Transmission Control Protocol,is a connection-oriented Transport layer protocol. TCP lets a device reliably send a packet to another device on the same network or on a different network. TCP ensures that each packet is delivered if at all possible. It does so by establishing a connection with the receiving device and then sending the packets. If a packet doesn't arrive, TCP resends the packet. The connection is closed only after the packet has been successfully delivered or an unrecoverable error condition has occurred.
+
+One key aspect of TCP is that it's always used for one-to-one communications. In other words, TCP allows a single network device to exchange data with another single network device. TCP is not used to broadcast messages to multiple network recipients. Instead, the User Datagram Protocol (UDP) is used for that purpose.
+
+Many well-known Application layer protocols rely on TCP. For example, when a user running a Web browser requests a page, the browser uses HTTP to send a request via TCP to the Web server. When the Web server receives the request, it uses HTTP to send the requested Web page back to the browser, again via TCP. Other Application layer protocols that use TCP include Telnet (for terminal emulation), FTP (for file exchange), and SMTP (for e-mail).</p>
+    <p><strong>UDP</strong></p>
+    <p>The User Datagram Protocol (or UDP) is a connectionless Transport layer protocol that is used when the overhead of a connection isn't required. After UDP has placed a packet on the network (via the IP protocol), it forgets about it. UDP doesn't guarantee that the packet actually arrives at its destination. Most applications that use UDP simply wait for any replies expected as a result of packets sent via UDP. If a reply doesn't arrive within a certain period of time, the application either sends the packet again or gives up.
+
+Probably the best-known Application layer protocol that uses UDP is DNS, the Domain Name System. When an application needs to access a domain name such as www.dummies.com, DNS sends a UDP packet to a DNS server to look up the domain. When the server finds the domain, it returns the domain's IP address in another UDP packet.</p>
+		</div>
+		
+		
+		</div>
+	</div>
+		<div class="content2">
+		
+	
+	
+		<div id="sec7" style="float:left;">
+		<a href="http://www.facebook.com" target="_blank"><img src="facebook.png" alt="Facebook Icon" style="height: 30px; width: 30px;"></a>
+		<a href="http://www.twitter.com" target="_blank"><img src="twitter.png" alt="Twitter Icon" style="width:30px; height:30px;"></a>
+		<a href="http://www.plus.google.com" target="_blank"><img src="gplus.png" alt="GooglePlus Icon" style="height: 30px; width: 30px;"></a>
+		<a href="http://www.instagram.com" target="_blank"><img src="insta.jpg" alt="Instagram Icon" style="height: 30px; width: 30px;"> </a>
+
+		<br><h3> 
+		1,750 people are talking about us</h3>
+		</div>
+		
+		
+		</div>
+		
+		
+		</div>
+		
+	
+	
+
+		<footer id="footer">
+		<p> &copy; Julio Luna || Pleasant Village || 0906 455 4552 || hulyoluna@gmail.com </p>
+		</footer>
+    </body>
+</html>
